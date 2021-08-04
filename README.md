@@ -1,21 +1,21 @@
-# Eventex
+# Encurtador de URLs
 
-Sistema de Eventos encomendado pela Morena.
+Sistema de encurtamento de URLs
 
 ## Como desenvolver?
 
 1. Clone o repositorio.
-2. Crie um virtualenv com Python 3.5 .
+2. Crie um virtualenv com Python 3.9 .
 3. Ative as dependências.
 4. Instale as dependências.
 5. Configure a instância com o .env .
 6. Execute os testes.
 
 ```console
-git clone git@github.com:LeonardoCDP/WTTD.git wttd
-cd wttd
-python -m venv .wttd
-source .wttd/scripts/activate
+git clone git@github.com:LeonardoCDP/encurtador_de_links.git encurtador
+cd encurtador
+python -m venv .venv
+source .venv/scripts/activate
 pip install -r requirements-dev.txt
 cp contrib/env-sample .env
 python manage.py test
